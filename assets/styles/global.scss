@@ -1,0 +1,57 @@
+@use '~/assets/styles/reset.scss';
+
+:root{
+  --el-drawer-padding-primary: 0px
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+img{
+  display:block;
+}
+
+input::placeholder{
+  color:#c2c2c2;
+}
+
+html{
+  margin:0;
+  padding:0;
+  font-family:'Roboto';
+  line-height:1.4;
+}
+
+.sub{
+  .sub-title{
+    background:#f5f5f7;
+    padding:20px;
+
+    h4{
+      font-size:16px;
+      font-weight:bold;
+    }
+    p{
+      margin-top:8px;
+      font-size:12px;
+      color:#797979;
+    }
+  }
+}
+
+.el-dialog{
+  border-radius:10px;
+}
+.el-drawer__header{
+  padding:0;
+  margin-bottom:10px;
+}
+.el-dialog__body{
+  padding:0;
+}
+.el-dialog__header{
+  display:none;
+}
